@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_wide">16dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="add_size">20sp</dimen>
+    <dimen name="medium_margin">24dp</dimen>
+    <dimen name="big_left_margin">30dp</dimen>
+    <dimen name="big_margin_down">60dp</dimen>
+    <dimen name="margin_btn">60dp</dimen>
+</resources>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Moviles_BG2M</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="toolbar_title_home">PC-BUDGET</string>
+    <string name="toolbar_title_products">Productos</string>
+    <string name="toolbar_title_budget">Presupuesto</string>
+    <string name="toolbar_title_more">Más</string>
+
+
+
+    <!--STRINGS DE PRESUPUESTO-->
+    <string name="Components_text">Tus Componentes:</string>
+    <string name="title_processor">Tu Procesador:</string>
+    <string name="add_processor">Añadir procesador</string>
+    <string name="title_graphic_card">Tu tarjeta grafica:</string>
+    <string name="agregar_procesador_icono">agregar procesador icono</string>
+    <string name="añadir_procesador">Añadir Procesador</string>
+    <string name="tu_memoria_ram">Tu memoria RAM:</string>
+    <string name="añadir_TG">Añadir tarjeta grafica</string>
+    <string name="añadir_ram">Añadir memoria ram</string>
+    <string name="añadir_TM">Añadir tarjeta madre</string>
+    <string name="title_MB">Tu tarjeta madre:</string>
+    <string name="tu_almacenamiento">Tu almacenamiento:</string>
+    <string name="añadir_almacenamiento">Añadir almacenamiento</string>
+    <string name="tu_fuente_de_poder">Tu fuente de poder:</string>
+    <string name="añadir_fuente_de_poder">Añadir fuente de poder</string>
+    <string name="tu_gabinete">Tu gabinete:</string>
+    <string name="añadir_case">Añadir gabinete</string>
+    <string name="total_btn_text">Total</string>
+    <string name="Guardar_boton">Guardar</string>
+    <!--////////////////////////////////////////////////////////////////////////////////////////////-->
+
+</resources>
