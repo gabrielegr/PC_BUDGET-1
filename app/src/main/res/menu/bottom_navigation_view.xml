@@ -18,5 +18,6 @@
         android:id="@+id/nav_mas"
         android:icon="@drawable/ic_dehaze_black_24dp"
         android:title="Más"/>
+    
 
 </menu>
