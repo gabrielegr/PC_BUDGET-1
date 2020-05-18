@@ -5,6 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
+import androidx.navigation.findNavController
+import com.mauricio.moviles_bg2m.databinding.FragmentSignupBinding
 
 /**
  * A simple [Fragment] subclass.
@@ -15,8 +18,15 @@ class SignupFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_signup, container, false)
+
+        var binding=DataBindingUtil.inflate<FragmentSignupBinding>(inflater,R.layout.fragment_signup,container,false)
+        binding.buttonCreate.setOnClickListener { view: View ->
+            view.findNavController().navigate(R.id.action_signupFragment_to_loginFragment2)
+
+        }
+        return binding.root
+
+
     }
 
 }
