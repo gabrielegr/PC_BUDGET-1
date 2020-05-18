@@ -4,9 +4,9 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
 
-    <color name="background">#ffffff</color>
-    <color name="unselected_button_menu">#8996a0</color>
-    <color name="app_principal_blue_color">#001d26</color>
+    <color name="backgroundWhite">#ffffff</color>
+    <color name="grayColor">#8996a0</color>
+    <color name="blueColor">#001d26</color>
     <color name="greenColor">#5ECC62</color>
     <color name="redColor">#e01f3d</color>
 </resources>

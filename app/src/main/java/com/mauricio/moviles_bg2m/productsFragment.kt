@@ -7,7 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 
-class ProductsFragment : Fragment() {
+/**
+ * A simple [Fragment] subclass.
+ */
+class productsFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -24,4 +27,5 @@ class ProductsFragment : Fragment() {
         )
 
     }
+
 }

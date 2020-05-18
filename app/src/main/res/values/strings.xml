@@ -39,6 +39,11 @@
     <string name="storage">Almacenamiento</string>
     <string name="cases">Gabinetes</string>
     <string name="power_supply">Fuentes de Poder</string>
+    <string name="password_hint">PASSWORD</string>
+    <string name="confirme_password_hint">CONFIRME PASSWORD</string>
+    <string name="confirme_email_hint">CONFIRME EMAIL</string>
+    <string name="email_hint">EMAIL</string>
+    <string name="create_account_text">Create account</string>
 
     <!--////////////////////////////////////////////////////////////////////////////////////////////-->
 
