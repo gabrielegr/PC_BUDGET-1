@@ -30,6 +30,16 @@
     <string name="añadir_case">Añadir gabinete</string>
     <string name="total_btn_text">Total</string>
     <string name="Guardar_boton">Guardar</string>
+    <string name="built_computer">Computadoras Completas</string>
+    <string name="built_your_own_pc">"O arma tu propia computadora "</string>
+    <string name="processor">Procesadores</string>
+    <string name="video_card">Tarjetas de Video</string>
+    <string name="memories">Memorias</string>
+    <string name="motherboards">Tarjetas Madre</string>
+    <string name="storage">Almacenamiento</string>
+    <string name="cases">Gabinetes</string>
+    <string name="power_supply">Fuentes de Poder</string>
+
     <!--////////////////////////////////////////////////////////////////////////////////////////////-->
 
 </resources>
