@@ -11,9 +11,9 @@
     android:orientation="vertical"
     android:lineSpacingExtra="50dp"
     >
-    <!-- TODO: Update blank fragment layout -->
+
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/cuentaTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cuenta"
@@ -22,14 +22,14 @@
         android:layout_marginBottom="5dp"
         />
     <View
-        android:id="@+id/view2"
+        android:id="@+id/separador1"
         android:layout_width="wrap_content"
         android:layout_height="2dp"
         android:background="@android:color/black"
         tools:layout_editor_absoluteY="16dp"
         />
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/cambiarContraseñaTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
@@ -40,7 +40,7 @@
         android:layout_marginBottom="25dp"
         />
     <TextView
-        android:id="@+id/nosotros"
+        android:id="@+id/nosotrosTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nosotros"
@@ -49,24 +49,25 @@
         android:layout_marginBottom="5dp"
         />
     <View
-        android:id="@+id/view4"
+        android:id="@+id/separador2"
         android:layout_width="wrap_content"
         android:layout_height="2dp"
         android:background="@android:color/black"
         tools:layout_editor_absoluteY="16dp" />
+
     <TextView
-        android:id="@+id/objetives"
+        android:id="@+id/objetivosTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
-        android:text="  Objetivo"
-        android:textSize="14dp"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="25dp"
         android:layout_marginBottom="10dp"
-        />
+        android:clickable="true"
+        android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+        android:text="  Objetivo"
+        android:textSize="14dp" />
     <TextView
-        android:id="@+id/acerca"
+        android:id="@+id/acercaDeTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
@@ -76,7 +77,7 @@
         android:layout_marginBottom="10dp"
         />
     <TextView
-        android:id="@+id/quienes"
+        android:id="@+id/quienesSomosTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
@@ -86,7 +87,7 @@
         android:layout_marginBottom="25dp"
         />
     <TextView
-        android:id="@+id/redes"
+        android:id="@+id/contactoTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Redes Sociales y Contacto"
@@ -95,13 +96,13 @@
         android:layout_marginBottom="5dp"
         />
     <View
-        android:id="@+id/view5"
+        android:id="@+id/separador3"
         android:layout_width="wrap_content"
         android:layout_height="2dp"
         android:background="@android:color/black"
         tools:layout_editor_absoluteY="16dp" />
     <TextView
-        android:id="@+id/telefono"
+        android:id="@+id/telefonoTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"

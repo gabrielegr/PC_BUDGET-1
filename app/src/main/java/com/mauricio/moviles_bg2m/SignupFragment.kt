@@ -9,9 +9,6 @@ import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import com.mauricio.moviles_bg2m.databinding.FragmentSignupBinding
 
-/**
- * A simple [Fragment] subclass.
- */
 class SignupFragment : Fragment() {
 
     override fun onCreateView(
