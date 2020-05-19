@@ -3,42 +3,43 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
-    <fragment
-        android:id="@+id/myNavHostFragment"
-        android:name="androidx.navigation.fragment.NavHostFragment"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:defaultNavHost="true"
-        app:navGraph="@navigation/navigation" />
+        android:layout_height="match_parent">
 
-    <!--Para el menu-->
-    <FrameLayout
-        android:id="@+id/Fragment_container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@id/bottom_navigation"/>
+        <fragment
+            android:id="@+id/myNavHostFragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/navigation" />
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom_navigation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:background="@color/blueColor"
-        app:itemTextColor="@color/grayColor"
-        app:itemIconTint="@color/grayColor"
-        app:labelVisibilityMode="labeled"
-        app:menu="@menu/bottom_navigation_view"
-        tools:visibility="visible"
-        app:itemIconSize="25sp"
-        app:itemTextAppearanceInactive="@style/inactiveMenuButton"/>
+        <!--Para el menu-->
+        <FrameLayout
+            android:id="@+id/Fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bottom_navigation" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/blueColor"
+            app:itemIconSize="25sp"
+            app:itemIconTint="@color/bottom_nav_color"
+            app:itemTextAppearanceInactive="@style/inactiveMenuButton"
+            app:itemTextColor="@color/bottom_nav_color"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/bottom_navigation_view"
+            tools:visibility="visible" />
 
 
-</RelativeLayout>
+    </RelativeLayout>
 </layout>
 

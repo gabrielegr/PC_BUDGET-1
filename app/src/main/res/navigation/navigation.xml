@@ -7,13 +7,14 @@
 
     <fragment
         android:id="@+id/productsFragment"
-        android:name="com.mauricio.moviles_bg2m.ProductsFragment"
+        android:name="com.mauricio.moviles_bg2m.productsFragment"
         android:label="fragment_products"
-        tools:layout="@layout/fragment_products" >
+        tools:layout="@layout/fragment_products">
         <action
             android:id="@+id/action_productsFragment_to_budgetFragment2"
             app:destination="@id/budgetFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/budgetFragment"
         android:name="com.mauricio.moviles_bg2m.BudgetFragment"
@@ -28,16 +29,18 @@
             app:popUpTo="@id/homeFragment"
             app:popUpToInclusive="true" />
     </fragment>
+
     <fragment
         android:id="@+id/moreFragment"
         android:name="com.mauricio.moviles_bg2m.MoreFragment"
         android:label="fragment_more"
         tools:layout="@layout/fragment_more" />
+
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.mauricio.moviles_bg2m.loginFragment"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" >
+        tools:layout="@layout/fragment_login">
         <action
             android:id="@+id/action_loginFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
@@ -45,20 +48,22 @@
             android:id="@+id/action_loginFragment_to_signupFragment"
             app:destination="@id/signupFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/signupFragment"
         android:name="com.mauricio.moviles_bg2m.SignupFragment"
         android:label="fragment_signup"
-        tools:layout="@layout/fragment_signup" >
+        tools:layout="@layout/fragment_signup">
         <action
             android:id="@+id/action_signupFragment_to_loginFragment2"
             app:destination="@id/loginFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.mauricio.moviles_bg2m.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" >
+        tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_productsFragment"
             app:destination="@id/productsFragment" />

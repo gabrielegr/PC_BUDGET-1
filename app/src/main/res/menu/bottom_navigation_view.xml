@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
         android:id="@+id/nav_inicio"
-        android:icon="@drawable/ic_home_black_24dp"
-        android:title="Inicio"
-        />
+        android:icon="@drawable/ic_home"
+        android:title="@string/inicio" />
     <item
         android:id="@+id/nav_producto"
-        android:icon="@drawable/ic_add_shopping_cart_black_24dp"
-        android:title="Productos"/>
+        android:icon="@drawable/ic_product_search"
+        android:title="@string/Productos" />
     <item
         android:id="@+id/nav_presupuesto"
-        android:icon="@drawable/ic_attach_money_black_24dp"
-        android:title="Presupuesto"/>
+        android:icon="@drawable/ic_budget"
+        android:title="@string/presupuesto"/>
     <item
         android:id="@+id/nav_mas"
-        android:icon="@drawable/ic_dehaze_black_24dp"
-        android:title="Más"/>
+        android:icon="@drawable/ic_more"
+        android:title="@string/mas"/>
     
 
 </menu>

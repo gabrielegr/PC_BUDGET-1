@@ -10,7 +10,6 @@
     <string name="toolbar_title_more">Más</string>
 
 
-    <!--STRINGS DE PRESUPUESTO-->
     <string name="Components_text">Tus Componentes:</string>
     <string name="title_processor">Tu Procesador:</string>
     <string name="add_processor">Añadir procesador</string>
@@ -44,7 +43,10 @@
     <string name="confirme_email_hint">CONFIRME EMAIL</string>
     <string name="email_hint">EMAIL</string>
     <string name="create_account_text">Create account</string>
+    <string name="inicio">Inicio</string>
+    <string name="Productos">Productos</string>
+    <string name="presupuesto">Presupuesto</string>
+    <string name="mas">Más</string>
 
-    <!--////////////////////////////////////////////////////////////////////////////////////////////-->
 
 </resources>
