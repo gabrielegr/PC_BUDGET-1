@@ -47,6 +47,9 @@
     <string name="Productos">Productos</string>
     <string name="presupuesto">Presupuesto</string>
     <string name="mas">Más</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="no_tienes_una_cuenta">No tienes una cuenta?</string>
 
 
 </resources>

@@ -21,10 +21,7 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val binding = DataBindingUtil.inflate<FragmentHomeBinding>(
-            inflater, R.layout.fragment_home, container,
-            false
-        )
+        val binding = DataBindingUtil.inflate<FragmentHomeBinding>(inflater, R.layout.fragment_home, container, false)
         setToolbarTitle()
 
         return binding.root
