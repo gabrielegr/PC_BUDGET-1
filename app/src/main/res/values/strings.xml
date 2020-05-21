@@ -50,6 +50,7 @@
     <string name="email">EMAIL</string>
     <string name="password">PASSWORD</string>
     <string name="no_tienes_una_cuenta">No tienes una cuenta?</string>
+    <string name="Objetivo_completo">Facilitar la busqueda de productos, generando presupuestos a través del mercado real, para satisfacer las necesidades del cliente, conectando con centros de compra externos</string>
 
 
 </resources>

@@ -34,7 +34,11 @@
         android:id="@+id/moreFragment"
         android:name="com.mauricio.moviles_bg2m.MoreFragment"
         android:label="fragment_more"
-        tools:layout="@layout/fragment_more" />
+        tools:layout="@layout/fragment_more" >
+        <action
+            android:id="@+id/action_moreFragment_to_cambiopasswordFragment"
+            app:destination="@id/cambiopasswordFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/loginFragment"
@@ -68,4 +72,9 @@
             android:id="@+id/action_homeFragment_to_productsFragment"
             app:destination="@id/productsFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/cambiopasswordFragment"
+        android:name="com.mauricio.moviles_bg2m.cambiopasswordFragment"
+        android:label="fragment_cambiopassword"
+        tools:layout="@layout/fragment_cambiopassword" />
 </navigation>
