@@ -32,6 +32,7 @@ class loginFragment : Fragment() {
             }
         }
 
+
         return binding.root
     }
 }

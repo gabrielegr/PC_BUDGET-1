@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         colorToolbar()
     }
 
-    private fun setupViews()
+    fun setupViews()
     {
         var navController = findNavController(R.id.myNavHostFragment)
 

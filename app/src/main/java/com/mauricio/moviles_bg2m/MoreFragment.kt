@@ -14,22 +14,23 @@ import com.mauricio.moviles_bg2m.databinding.FragmentMoreBinding
 import kotlinx.android.synthetic.main.fragment_more.*
 
 class MoreFragment : Fragment() {
-    private lateinit var binding: FragmentMoreBinding
+    lateinit var binding: FragmentMoreBinding
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        var binding = DataBindingUtil.inflate<FragmentMoreBinding>(inflater, R.layout.fragment_more, container,false)
+        binding = DataBindingUtil.inflate<FragmentMoreBinding>(inflater, R.layout.fragment_more, container
+            ,false)
 
-
-        binding.apply {
-            cambiar_contra.setOnClickListener { view: View ->
-                view.findNavController().navigate(R.id.action_moreFragment_to_cambiopasswordFragment)
-            }
-
-        }
-
+        textViewListener()
         return binding.root
+    }
+
+    private fun textViewListener(){
+        binding.cambiarContra.setOnClickListener { view: View ->
+            view.findNavController().navigate(R.id.action_moreFragment_to_cambiopasswordFragment)
+        }
     }
 
 

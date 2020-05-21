@@ -3,161 +3,162 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MoreFragment">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_margin="12dp"
 
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:orientation="vertical"
-    android:lineSpacingExtra="50dp"
-    >
-
-    <TextView
-        android:id="@+id/cuentaTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cuenta"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:layout_marginBottom="5dp"
-        />
-    <View
-        android:id="@+id/separador1"
-        android:layout_width="wrap_content"
-        android:layout_height="2dp"
-        android:background="@android:color/black"
-        tools:layout_editor_absoluteY="16dp"
-        />
-
-    <TextView
-        android:id="@+id/cambiar_contra"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginBottom="25dp"
-        android:clickable="true"
-        android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
-        android:text="  Cambiar contraseña"
-        android:textSize="14dp" />
-    <TextView
-        android:id="@+id/nosotrosTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Nosotros"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:layout_marginBottom="5dp"
-        />
-    <View
-        android:id="@+id/separador2"
-        android:layout_width="wrap_content"
-        android:layout_height="2dp"
-        android:background="@android:color/black"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <TextView
-        android:id="@+id/objetivosTxt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginBottom="10dp"
-        android:clickable="true"
-        android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
-        android:text="  Objetivo"
-        android:textSize="14dp" />
-
-    <TextView
-        android:id="@+id/acercaDeTxt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:layout_marginBottom="10dp"
-        android:clickable="true"
-        android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
-        android:text="  Acerca de"
-        android:textSize="14dp" />
-
-    <TextView
-        android:id="@+id/quienesSomosTxt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:layout_marginBottom="25dp"
-        android:clickable="true"
-        android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
-        android:text="  ¿Quienes somos?"
-        android:textSize="14dp" />
-    <TextView
-        android:id="@+id/contactoTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Redes Sociales y Contacto"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:layout_marginBottom="5dp"
-        />
-    <View
-        android:id="@+id/separador3"
-        android:layout_width="wrap_content"
-        android:layout_height="2dp"
-        android:background="@android:color/black"
-        tools:layout_editor_absoluteY="16dp" />
-    <TextView
-        android:id="@+id/telefonoTxt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
-        android:text="  Telefono: 2220-3456"
-        android:textSize="14dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginBottom="10dp"
-        />
-    <TextView
-        android:id="@+id/Twitter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
-        android:text="  Twitter: PC-BUDGET(BG2M)"
-        android:textSize="14dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginBottom="10dp"
-        />
-    <TextView
-        android:id="@+id/Facebook"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
-        android:text="  PC-BUDGET(BG2M)"
-        android:textSize="14dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginBottom="10dp"
-        />
-    <TextView
-        android:id="@+id/Email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
-        android:text="  Email: BG2M-GROUP@gmail.com"
-        android:textSize="14dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginBottom="65dp"
-        />
-
-    <Button
-        android:id="@+id/btn_cerrar_sesion"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="@drawable/boton_redondo_2"
-        android:padding="11dp"
-        android:text="Cerrar sesión"
-        android:textColor="#FFFFFF"
-        android:textSize="22dp"
-        android:textAllCaps="false"/>
-</LinearLayout>
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+
+        android:lineSpacingExtra="50dp"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:id="@+id/cuentaTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Cuenta"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/separador1"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@android:color/black"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/cambiar_contra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:clickable="true"
+            android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+            android:text="  Cambiar contraseña"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/nosotrosTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Nosotros"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/separador2"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@android:color/black"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/objetivosTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+            android:text="  Objetivo"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/acercaDeTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+            android:text="  Acerca de"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/quienesSomosTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="25dp"
+            android:clickable="true"
+            android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+            android:text="  ¿Quienes somos?"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/contactoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Redes Sociales y Contacto"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/separador3"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@android:color/black"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/telefonoTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+            android:text="  Telefono: 2220-3456"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/Twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="10dp"
+            android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+            android:text="  Twitter: PC-BUDGET(BG2M)"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/Facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="10dp"
+            android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+            android:text="  PC-BUDGET(BG2M)"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="65dp"
+            android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+            android:text="  Email: BG2M-GROUP@gmail.com"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/btn_cerrar_sesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/boton_redondo_2"
+            android:padding="11dp"
+            android:text="Cerrar sesión"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+    </LinearLayout>
 </layout>
