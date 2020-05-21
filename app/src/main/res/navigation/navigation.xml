@@ -8,20 +8,20 @@
     <fragment
         android:id="@+id/productsFragment"
         android:name="com.mauricio.moviles_bg2m.productsFragment"
-        android:label="fragment_products"
-        tools:layout="@layout/fragment_products"/>
+        android:label="@string/Productos"
+        tools:layout="@layout/fragment_products" />
 
     <fragment
         android:id="@+id/budgetFragment"
         android:name="com.mauricio.moviles_bg2m.BudgetFragment"
-        android:label="BudgetFragment"
-        tools:layout="@layout/fragment_budget"/>
+        android:label="@string/presupuesto"
+        tools:layout="@layout/fragment_budget" />
 
     <fragment
         android:id="@+id/moreFragment"
         android:name="com.mauricio.moviles_bg2m.MoreFragment"
-        android:label="fragment_more"
-        tools:layout="@layout/fragment_more" >
+        android:label="@string/mas"
+        tools:layout="@layout/fragment_more">
         <action
             android:id="@+id/action_moreFragment_to_cambiopasswordFragment"
             app:destination="@id/cambiopasswordFragment" />
@@ -53,8 +53,8 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.mauricio.moviles_bg2m.HomeFragment"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_home"/>
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/cambiopasswordFragment"
         android:name="com.mauricio.moviles_bg2m.cambiopasswordFragment"

@@ -4,123 +4,123 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".loginFragment">
 
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:id="@+id/frameLayout"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <EditText
-        android:id="@+id/editText_Email"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/containerLogin"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/bigMargin_60dp"
-        android:layout_marginTop="@dimen/margin_30dp"
-        android:layout_marginEnd="@dimen/bigMargin_60dp"
-        android:backgroundTint="@color/greenColor"
-        android:ems="10"
-        android:fontFamily="@font/montserrat"
-        android:hint="@string/email"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/editText_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/bigMargin_60dp"
-        android:layout_marginTop="@dimen/bigMargin_60dp"
-        android:layout_marginEnd="@dimen/bigMargin_60dp"
-        android:backgroundTint="@color/greenColor"
-        android:ems="10"
-        android:fontFamily="@font/montserrat"
-        android:hint="@string/password"
-        android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText_Email" />
+        <EditText
+            android:id="@+id/editText_Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/bigMargin_60dp"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:layout_marginEnd="@dimen/bigMargin_60dp"
+            android:backgroundTint="@color/greenColor"
+            android:ems="10"
+            android:fontFamily="@font/montserrat"
+            android:hint="@string/email"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-    <Button
-        android:id="@+id/button_login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/bigMargin_60dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="@dimen/bigMargin_60dp"
-        android:background="@drawable/boton_redondo"
-        android:fontFamily="@font/montserrat"
-        android:text="Login"
-        android:textColor="@color/backgroundWhite"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText_password" />
+        <EditText
+            android:id="@+id/editText_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/bigMargin_60dp"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:layout_marginEnd="@dimen/bigMargin_60dp"
+            android:backgroundTint="@color/greenColor"
+            android:ems="10"
+            android:fontFamily="@font/montserrat"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText_Email" />
 
-    <TextView
-        android:id="@+id/cuentaTitle"
-        android:layout_width="162dp"
-        android:layout_height="21dp"
-        android:layout_marginTop="@dimen/bigMargin_60dp"
-        android:fontFamily="@font/montserrat"
-        android:text="@string/no_tienes_una_cuenta"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_login" />
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/bigMargin_60dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="@dimen/bigMargin_60dp"
+            android:background="@drawable/boton_redondo"
+            android:fontFamily="@font/montserrat"
+            android:text="Login"
+            android:textColor="@color/backgroundWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText_password" />
 
-    <Button
-        android:id="@+id/button_signup"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/bigMargin_60dp"
-        android:layout_marginTop="@dimen/bigMargin_60dp"
-        android:layout_marginEnd="@dimen/bigMargin_60dp"
-        android:background="@drawable/boton_redondo"
-        android:text="Sign up "
-        android:textColor="@color/backgroundWhite"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cuentaTitle" />
+        <TextView
+            android:id="@+id/cuentaTitle"
+            android:layout_width="162dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/no_tienes_una_cuenta"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_login" />
 
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="32dp"
-        android:background="@drawable/boton_imagen"
-        android:scaleType="fitCenter"
-        android:src="@mipmap/ic_facebook_foreground"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageButton5"
-        app:layout_constraintTop_toBottomOf="@+id/button_signup" />
+        <Button
+            android:id="@+id/button_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/bigMargin_60dp"
+            android:layout_marginTop="@dimen/medium_margin_24dp"
+            android:layout_marginEnd="@dimen/bigMargin_60dp"
+            android:background="@drawable/boton_redondo"
+            android:text="Sign up "
+            android:textColor="@color/backgroundWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cuentaTitle" />
 
-    <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
-        android:background="@drawable/boton_imagen"
-        android:scaleType="fitCenter"
-        android:src="@mipmap/ic_github_foreground"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton4"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_signup" />
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/boton_imagen"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_facebook_foreground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageButton5"
+            app:layout_constraintTop_toBottomOf="@+id/button_signup" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="256dp"
-        android:layout_height="65dp"
-        android:layout_marginStart="@dimen/bigMargin_60dp"
-        android:layout_marginTop="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/bigMargin_60dp"
-        android:src="@drawable/logo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/boton_imagen"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_github_foreground"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_signup" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="256dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="@dimen/bigMargin_60dp"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/bigMargin_60dp"
+            android:src="@drawable/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

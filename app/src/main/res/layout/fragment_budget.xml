@@ -11,6 +11,18 @@
         android:background="@color/backgroundWhite"
         tools:context=".BudgetFragment">
 
+
+        <TextView
+            android:id="@+id/title_components"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginBottom="@dimen/small_margin"
+            android:text="@string/Components_text"
+            app:layout_constraintBottom_toTopOf="@+id/separador"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
         <View
             android:id="@+id/separador"
             android:layout_width="match_parent"
@@ -410,6 +422,7 @@
             android:layout_width="wrap_content"
             android:layout_height="48dp"
             android:layout_marginLeft="@dimen/bigMargin_60dp"
+            android:background="@drawable/boton_redondo_2"
             android:fontFamily="@font/montserrat"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
@@ -420,8 +433,7 @@
             app:layout_constraintEnd_toStartOf="@+id/save_button"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/separador_7"
-            android:background="@drawable/boton_redondo_2"/>
+            app:layout_constraintTop_toBottomOf="@+id/separador_7" />
 
         <Button
             android:id="@+id/save_button"
@@ -440,17 +452,7 @@
             app:layout_constraintStart_toEndOf="@+id/Total"
             app:layout_constraintTop_toBottomOf="@+id/separador_7" />
 
-        <TextView
-            android:id="@+id/title_components"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_wide"
-            android:layout_marginBottom="@dimen/small_margin"
-            android:text="@string/Components_text"
-            app:layout_constraintBottom_toTopOf="@+id/separador"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

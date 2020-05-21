@@ -21,7 +21,6 @@ class MoreFragment : Fragment() {
     ): View? {
         var binding = DataBindingUtil.inflate<FragmentMoreBinding>(inflater, R.layout.fragment_more, container,false)
 
-        return binding.root
 
         binding.apply {
             cambiar_contra.setOnClickListener { view: View ->
@@ -30,6 +29,7 @@ class MoreFragment : Fragment() {
 
         }
 
+        return binding.root
     }
 
 

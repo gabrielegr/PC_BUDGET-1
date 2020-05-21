@@ -29,10 +29,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)
 
+        setupViews()
         colorToolbar()
     }
 
-    fun setupViews()
+    private fun setupViews()
     {
         var navController = findNavController(R.id.myNavHostFragment)
 
