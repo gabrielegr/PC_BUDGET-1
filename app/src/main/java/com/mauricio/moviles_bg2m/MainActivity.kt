@@ -13,7 +13,10 @@ import androidx.databinding.DataBindingUtil
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
+import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
+import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.mauricio.moviles_bg2m.databinding.ActivityMainBinding
 import kotlinx.android.synthetic.main.activity_main.*
@@ -26,43 +29,26 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)
 
-        bottom_navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
-        replaceFragment(HomeFragment())
         colorToolbar()
     }
 
+    fun setupViews()
+    {
+        var navController = findNavController(R.id.myNavHostFragment)
 
-    private val mOnNavigationItemSelectedListener =
-        BottomNavigationView.OnNavigationItemSelectedListener { item ->
-            when (item.itemId) {
-                R.id.nav_inicio -> {
-                    println("home pressed")
-                    replaceFragment(HomeFragment())
-                    return@OnNavigationItemSelectedListener true
-                }
-                R.id.nav_producto -> {
-                    println("product pressed")
-                    replaceFragment(productsFragment())
-                    return@OnNavigationItemSelectedListener true
-                }
-                R.id.nav_presupuesto -> {
-                    println("home pressed")
-                    replaceFragment(BudgetFragment())
-                    return@OnNavigationItemSelectedListener true
-                }
-                R.id.nav_mas -> {
-                    println("home pressed")
-                    replaceFragment(MoreFragment())
-                    return@OnNavigationItemSelectedListener true
-                }
-            }
-            false
-        }
+        bottom_navigation.setupWithNavController(navController)
 
-    private fun replaceFragment(fragment: Fragment) {
-        val fragmentTransaction = supportFragmentManager.beginTransaction()
-        fragmentTransaction.replace(R.id.Fragment_container, fragment)
-        fragmentTransaction.commit()
+        setupActionBarWithNavController(navController)
+
+        var appBarConfiguration = AppBarConfiguration(
+            topLevelDestinationIds = setOf (
+                R.id.homeFragment,
+                R.id.productsFragment,
+                R.id.budgetFragment,
+                R.id.moreFragment
+            )
+        )
+        setupActionBarWithNavController(navController, appBarConfiguration)
     }
 
     private fun colorToolbar() {

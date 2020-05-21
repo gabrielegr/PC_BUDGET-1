@@ -21,7 +21,6 @@ class MoreFragment : Fragment() {
     ): View? {
         var binding = DataBindingUtil.inflate<FragmentMoreBinding>(inflater, R.layout.fragment_more, container,false)
 
-        setToolbarTitle()
         return binding.root
 
         binding.apply {
@@ -33,13 +32,6 @@ class MoreFragment : Fragment() {
 
     }
 
-    private fun setToolbarTitle() {
-        (activity as AppCompatActivity)
-            .supportActionBar?.title = getString(
-            R.string.toolbar_title_more
-        )
-
-    }
 
 
 }

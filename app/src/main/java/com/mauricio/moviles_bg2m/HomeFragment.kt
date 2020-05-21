@@ -22,16 +22,10 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val binding = DataBindingUtil.inflate<FragmentHomeBinding>(inflater, R.layout.fragment_home, container, false)
-        setToolbarTitle()
+
 
         return binding.root
     }
 
-    private fun setToolbarTitle() {
-        (activity as AppCompatActivity)
-            .supportActionBar?.title = getString(
-            R.string.toolbar_title_home
-        )
 
-    }
 }

@@ -16,16 +16,9 @@ class productsFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        setToolbarTitle()
+
         return inflater.inflate(R.layout.fragment_products, container, false)
     }
 
-    private fun setToolbarTitle() {
-        (activity as AppCompatActivity)
-            .supportActionBar?.title = getString(
-            R.string.toolbar_title_products
-        )
-
-    }
 
 }
