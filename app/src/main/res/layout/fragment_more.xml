@@ -4,161 +4,208 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MoreFragment">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="12dp"
-
-        android:lineSpacingExtra="50dp"
         android:orientation="vertical"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp">
+        android:padding="20dp">
 
         <TextView
             android:id="@+id/cuentaTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
             android:text="Cuenta"
             android:textSize="20dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <View
             android:id="@+id/separador1"
             android:layout_width="wrap_content"
             android:layout_height="2dp"
+            android:layout_marginTop="28dp"
             android:background="@android:color/black"
-            tools:layout_editor_absoluteY="16dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/cambiar_contra"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginBottom="25dp"
+            android:layout_marginTop="58dp"
             android:clickable="true"
             android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
             android:text="  Cambiar contraseña"
-            android:textSize="14dp" />
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.134"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/nosotrosTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
+            android:layout_marginTop="104dp"
             android:text="Nosotros"
             android:textSize="20dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.006"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <View
             android:id="@+id/separador2"
             android:layout_width="wrap_content"
             android:layout_height="2dp"
+            android:layout_marginTop="132dp"
             android:background="@android:color/black"
-            tools:layout_editor_absoluteY="16dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/objetivosTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginTop="162dp"
             android:clickable="true"
             android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
             android:text="  Objetivo"
-            android:textSize="14dp" />
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.121"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/acercaDeTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginTop="200dp"
             android:clickable="true"
             android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
             android:text="  Acerca de"
-            android:textSize="14dp" />
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.121"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/quienesSomosTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginBottom="25dp"
+            android:layout_marginTop="236dp"
             android:clickable="true"
             android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
             android:text="  ¿Quienes somos?"
-            android:textSize="14dp" />
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.148"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/contactoTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
+            android:layout_marginTop="285dp"
             android:text="Redes Sociales y Contacto"
             android:textSize="20dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0006"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <View
             android:id="@+id/separador3"
             android:layout_width="wrap_content"
             android:layout_height="2dp"
+            android:layout_marginTop="312dp"
             android:background="@android:color/black"
-            tools:layout_editor_absoluteY="16dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/telefonoTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginTop="344dp"
             android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
             android:text="  Telefono: 2220-3456"
-            android:textSize="14dp" />
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.148"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/Twitter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginTop="382dp"
             android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
             android:text="  Twitter: PC-BUDGET(BG2M)"
-            android:textSize="14dp" />
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.185"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/Facebook"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginTop="423dp"
             android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
             android:text="  PC-BUDGET(BG2M)"
-            android:textSize="14dp" />
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.148"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/Email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginBottom="65dp"
+            android:layout_marginTop="460dp"
             android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
             android:text="  Email: BG2M-GROUP@gmail.com"
-            android:textSize="14dp" />
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.243"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/btn_cerrar_sesion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="25dp"
             android:background="@drawable/boton_redondo_2"
             android:padding="11dp"
             android:text="Cerrar sesión"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
-            android:textSize="22dp" />
-    </LinearLayout>
+            android:textSize="22dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.033"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.916" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
