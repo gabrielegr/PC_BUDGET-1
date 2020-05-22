@@ -51,6 +51,14 @@
     <string name="password">PASSWORD</string>
     <string name="no_tienes_una_cuenta">No tienes una cuenta?</string>
     <string name="Objetivo_completo">Facilitar la busqueda de productos, generando presupuestos a través del mercado real, para satisfacer las necesidades del cliente, conectando con centros de compra externos</string>
+    <string name="no_tienes_ning_n_presupuesto_guardado">No tienes ningún presupuesto guardado</string>
+    <string name="price_cpu_text">Precio: 299.95</string>
+    <string name="name_text_cpu">Intel Xeon E3-1230 Processors BX80677E31230V6</string>
+    <string name="name_grafica">GIGABYTE N105TD5 DDR5 4GB GTX 1050</string>
+    <string name="price_grafica">Precio: $371.95</string>
+    <string name="text_ram">CORSAIR VENGEANCE RGB - (16GB, 2x8GB) DDR4 2666 MHz</string>
+    <string name="price_ram">Precio: $89.99</string>
+    <string name="name_tm">Gigabyte B450M DS3H (AMD Ryzen AM4/M.2/HMDI/DVI/USB 3.1/DDR4/Micro ATX/Placa madre)</string>
 
 
 </resources>

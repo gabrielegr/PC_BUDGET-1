@@ -7,4 +7,5 @@
     <dimen name="margin_30dp">30dp</dimen>
     <dimen name="bigMargin_60dp">60dp</dimen>
     <dimen name="textSize_24sp">24sp</dimen>
+    <dimen name="small_text">16sp</dimen>
 </resources>
