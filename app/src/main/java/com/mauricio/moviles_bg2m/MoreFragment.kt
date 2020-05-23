@@ -29,7 +29,7 @@ class MoreFragment : Fragment() {
 
     private fun textViewListener(){
         binding.cambiarContra.setOnClickListener { view: View ->
-            view.findNavController().navigate(R.id.action_moreFragment_to_changepasswordFragment)
+            view.findNavController().navigate(R.id.action_moreFragment_to_changePasswordFragment2)
         }
     }
 

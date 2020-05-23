@@ -4,24 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Categories_almacenamiento">
-
+    tools:context=".Categories_Comp_completa">
 
     <TextView
         android:layout_width="414dp"
         android:layout_height="71dp"
         android:layout_weight="1"
-        android:background="@drawable/degradado_titulo"
+        android:background="@drawable/degradado_tituloCategoria"
         android:fontFamily="@font/montserrat"
         android:paddingVertical="20dp"
-        android:text="Almacenamiento"
+        android:text="Computadoras completas"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@color/backgroundWhite"
-        android:textSize="25dp"
+        android:textSize="23dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
