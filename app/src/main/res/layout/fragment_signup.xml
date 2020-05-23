@@ -2,134 +2,144 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".SignupFragment" >
+    tools:context=".SignupFragment">
 
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:id="@+id/frameLayout2"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-   >
-
-    <EditText
-        android:id="@+id/editText7"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/bigMargin_60dp"
-        android:layout_marginTop="@dimen/margin_30dp"
-        android:layout_marginEnd="@dimen/bigMargin_60dp"
-        android:backgroundTint="@color/greenColor"
-        android:ems="10"
-        android:fontFamily="@font/montserrat"
-        android:hint="@string/password_hint"
-        android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText9" />
+        android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/editText8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/bigMargin_60dp"
-        android:layout_marginTop="@dimen/margin_30dp"
-        android:layout_marginEnd="@dimen/bigMargin_60dp"
-        android:backgroundTint="@color/greenColor"
-        android:ems="10"
-        android:fontFamily="@font/montserrat"
-        android:hint="@string/confirme_password_hint"
-        android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText7" />
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/bigMargin_60dp"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:layout_marginEnd="@dimen/bigMargin_60dp"
+            android:backgroundTint="@color/greenColor"
+            android:ems="10"
+            android:fontFamily="@font/montserrat"
+            android:hint="@string/contrasena"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText9"
+            tools:targetApi="lollipop" />
 
-    <EditText
-        android:id="@+id/editText9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/bigMargin_60dp"
-        android:layout_marginTop="@dimen/margin_30dp"
-        android:layout_marginEnd="@dimen/bigMargin_60dp"
-        android:backgroundTint="@color/greenColor"
-        android:ems="10"
-        android:fontFamily="@font/montserrat"
-        android:hint="@string/confirme_email_hint"
-        android:inputType="textEmailAddress"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText10" />
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/bigMargin_60dp"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:layout_marginEnd="@dimen/bigMargin_60dp"
+            android:backgroundTint="@color/greenColor"
+            android:ems="10"
+            android:fontFamily="@font/montserrat"
+            android:hint="@string/confirmar_contrasena"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText7"
+            tools:targetApi="lollipop"
+            android:importantForAutofill="no" />
 
-    <EditText
-        android:id="@+id/editText10"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/bigMargin_60dp"
-        android:layout_marginTop="@dimen/margin_30dp"
-        android:layout_marginEnd="@dimen/bigMargin_60dp"
-        android:backgroundTint="@color/greenColor"
-        android:ems="10"
-        android:fontFamily="@font/montserrat"
-        android:hint="@string/email_hint"
-        android:inputType="textEmailAddress"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/bigMargin_60dp"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:layout_marginEnd="@dimen/bigMargin_60dp"
+            android:backgroundTint="@color/greenColor"
+            android:ems="10"
+            android:fontFamily="@font/montserrat"
+            android:hint="@string/confirme_su_correo_electronico"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText10"
+            android:importantForAutofill="no"
+            tools:targetApi="lollipop" />
 
-    <Button
-        android:id="@+id/button_create"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/bigMargin_60dp"
-        android:layout_marginTop="@dimen/bigMargin_60dp"
-        android:layout_marginEnd="@dimen/bigMargin_60dp"
-        android:background="@drawable/boton_redondo"
-        android:fontFamily="@font/montserrat"
-        android:text="@string/create_account_text"
-        android:textColor="@color/backgroundWhite"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText8" />
+        <EditText
+            android:id="@+id/editText10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/bigMargin_60dp"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:layout_marginEnd="@dimen/bigMargin_60dp"
+            android:backgroundTint="@color/greenColor"
+            android:ems="10"
+            android:fontFamily="@font/montserrat"
+            android:hint="@string/correo_electronico"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            android:importantForAutofill="no"
+            tools:targetApi="lollipop" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="@dimen/bigMargin_60dp"
-        android:background="@drawable/boton_imagen"
-        android:scaleType="fitCenter"
-        android:src="@mipmap/ic_facebook_foreground"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageButton2"
-        app:layout_constraintTop_toBottomOf="@+id/button_create" />
+        <Button
+            android:id="@+id/button_create"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/bigMargin_60dp"
+            android:layout_marginTop="@dimen/bigMargin_60dp"
+            android:layout_marginEnd="@dimen/bigMargin_60dp"
+            android:background="@drawable/boton_redondo"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/crear_cuenta"
+            android:textColor="@color/backgroundWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText8" />
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="@dimen/bigMargin_60dp"
-        android:layout_marginTop="32dp"
-        android:background="@drawable/boton_imagen"
-        android:scaleType="fitCenter"
-        android:src="@mipmap/ic_github_foreground"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_create" />
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="@dimen/bigMargin_60dp"
+            android:background="@drawable/boton_imagen"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_facebook_foreground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageButton2"
+            app:layout_constraintTop_toBottomOf="@+id/button_create"
+            tools:ignore="ContentDescription" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="242dp"
-        android:layout_height="74dp"
-        android:layout_marginStart="@dimen/bigMargin_60dp"
-        android:layout_marginTop="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/bigMargin_60dp"
-        android:src="@drawable/logo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="@dimen/bigMargin_60dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/boton_imagen"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_github_foreground"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_create"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="242dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="@dimen/bigMargin_60dp"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginEnd="@dimen/bigMargin_60dp"
+            android:src="@drawable/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

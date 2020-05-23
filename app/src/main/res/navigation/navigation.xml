@@ -30,7 +30,7 @@
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.mauricio.moviles_bg2m.LoginFragment"
-        android:label="fragment_login"
+        android:label="Iniciar sesión"
         tools:layout="@layout/fragment_login">
         <action
             android:id="@+id/action_loginFragment_to_homeFragment"
@@ -43,7 +43,7 @@
     <fragment
         android:id="@+id/signupFragment"
         android:name="com.mauricio.moviles_bg2m.SignupFragment"
-        android:label="fragment_signup"
+        android:label="Registro"
         tools:layout="@layout/fragment_signup">
         <action
             android:id="@+id/action_signupFragment_to_loginFragment2"
@@ -62,7 +62,7 @@
     <fragment
         android:id="@+id/changepasswordFragment"
         android:name="com.mauricio.moviles_bg2m.ChangePasswordFragment"
-        android:label="fragment_cambiopassword" />
+        android:label="Cambiar contraseña" />
     <fragment
         android:id="@+id/categories_almacenamiento"
         android:name="com.mauricio.moviles_bg2m.Categories_almacenamiento"
@@ -71,12 +71,12 @@
     <fragment
         android:id="@+id/categories_Tarj_video"
         android:name="com.mauricio.moviles_bg2m.Categories_Tarj_video"
-        android:label="TarjetaVideo"
+        android:label="Tarjetas de video"
         tools:layout="@layout/fragment_categories__tarj_video" />
     <fragment
         android:id="@+id/categories_Tarj_Madre"
         android:name="com.mauricio.moviles_bg2m.Categories_Tarj_Madre"
-        android:label="TarjetaMadre"
+        android:label="Tarjetas madre"
         tools:layout="@layout/fragment_categories__tarj__madre" />
     <fragment
         android:id="@+id/categories_Procesadores"
@@ -86,7 +86,7 @@
     <fragment
         android:id="@+id/categories_Memorias"
         android:name="com.mauricio.moviles_bg2m.Categories_Memorias"
-        android:label="Memorias"
+        android:label="Memorias ram"
         tools:layout="@layout/fragment_categories__memorias" />
     <fragment
         android:id="@+id/categories_Gabinetes"
@@ -96,13 +96,13 @@
     <fragment
         android:id="@+id/categories_Fuentes_Poder"
         android:name="com.mauricio.moviles_bg2m.Categories_Fuentes_Poder"
-        android:label="FuentesPoder"
+        android:label="Fuentes de poder"
         tools:layout="@layout/fragment_categories__fuentes__poder" />
 
     <fragment
         android:id="@+id/savedBudgetFragment"
         android:name="com.mauricio.moviles_bg2m.SavedBudgetFragment"
-        android:label="Mi fragmento guardado 1"
-        tools:layout="@layout/fragment_saved_budget"/>
+        android:label="Mi presupuesto guardado 1"
+        tools:layout="@layout/fragment_saved_budget" />
 
 </navigation>

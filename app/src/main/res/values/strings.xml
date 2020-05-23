@@ -38,10 +38,6 @@
     <string name="storage">Almacenamiento</string>
     <string name="cases">Gabinetes</string>
     <string name="power_supply">Fuentes de Poder</string>
-    <string name="password_hint">PASSWORD</string>
-    <string name="confirme_password_hint">CONFIRME PASSWORD</string>
-    <string name="confirme_email_hint">CONFIRME EMAIL</string>
-    <string name="email_hint">EMAIL</string>
     <string name="create_account_text">Create account</string>
     <string name="inicio">Inicio</string>
     <string name="Productos">Productos</string>
@@ -59,6 +55,30 @@
     <string name="text_ram">CORSAIR VENGEANCE RGB - (16GB, 2x8GB) DDR4 2666 MHz</string>
     <string name="price_ram">Precio: $89.99</string>
     <string name="name_tm">Gigabyte B450M DS3H (AMD Ryzen AM4/M.2/HMDI/DVI/USB 3.1/DDR4/Micro ATX/Placa madre)</string>
+    <string name="titulo_cuenta">Cuenta</string>
+    <string name="cambiar_contra_tv">Cambiar contraseña</string>
+    <string name="titulo_nosotros">Nosotros</string>
+    <string name="objetivo">Objetivo</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="quienes_somos">¿Quienes somos?</string>
+    <string name="redes_sociales_y_contacto">Redes Sociales y Contacto</string>
+    <string name="telefono_2220_3456">Telefono: 2220–3456</string>
+    <string name="twitter_pc_budget_bg2m">Twitter: PC-BUDGET(BG2M)</string>
+    <string name="pc_budget_bg2m">PC-BUDGET(BG2M)</string>
+    <string name="email_bg2m_group_gmail_com">Email: BG2M-GROUP@gmail.com</string>
+    <string name="cerrar_sesion_txt_btn">Cerrar sesión</string>
+    <string name="cambiar_btnText">Cambiar</string>
+    <string name="contrasena_actual">Contraseña actual</string>
+    <string name="indicacion_contraseña">¡Por favor, ingresa tu contraseña actual y despues tu nueva contraseña y confirmala, luego presiona el boton cambiar y listo!</string>
+    <string name="nueva_contrasena">Nueva contraseña</string>
+    <string name="confirmar_nueva_contrasena">Confirmar nueva contraseña</string>
+    <string name="correo_electronico">Correo electronico</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="registrate">¡Registrate!</string>
+    <string name="confirmar_contrasena">Confirmar Contraseña</string>
+    <string name="confirme_su_correo_electronico">Confirme su correo electronico</string>
+    <string name="crear_cuenta">Crear cuenta</string>
 
 
 </resources>
