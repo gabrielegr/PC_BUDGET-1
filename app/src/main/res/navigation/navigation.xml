@@ -119,23 +119,18 @@
 
     <fragment
         android:id="@+id/savedBudgetFragment"
-        android:name="com.mauricio.moviles_bg2m.SavedBudgetFragment"
-<<<<<<< HEAD
-        android:label="Mi fragmento guardado 1"
-        tools:layout="@layout/fragment_saved_budget"/>
+        android:name="com.mauricio.moviles_bg2m.SavedBudgetFragment"/>
+
     <fragment
         android:id="@+id/categories_Comp_completa"
         android:name="com.mauricio.moviles_bg2m.Categories_Comp_completa"
         android:label="ComputadorasCompletas"
         tools:layout="@layout/fragment_categories__comp_completa" />
-=======
-        android:label="Mi presupuesto guardado 1"
-        tools:layout="@layout/fragment_saved_budget" />
+
     <fragment
         android:id="@+id/changePasswordFragment2"
         android:name="com.mauricio.moviles_bg2m.ChangePasswordFragment"
         android:label="fragment_changepassword"
         tools:layout="@layout/fragment_changepassword" />
->>>>>>> aeb442b02fd7aa55705944a304c4edd4ec010d5a
 
 </navigation>
