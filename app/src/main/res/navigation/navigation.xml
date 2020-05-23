@@ -9,7 +9,29 @@
         android:id="@+id/productsFragment"
         android:name="com.mauricio.moviles_bg2m.ProductsFragment"
         android:label="@string/Productos"
-        tools:layout="@layout/fragment_products" />
+        tools:layout="@layout/fragment_products" >
+        <action
+            android:id="@+id/action_productsFragment_to_categories_Procesadores"
+            app:destination="@id/categories_Procesadores" />
+        <action
+            android:id="@+id/action_productsFragment_to_categories_Tarj_video"
+            app:destination="@id/categories_Tarj_video" />
+        <action
+            android:id="@+id/action_productsFragment_to_categories_Memorias"
+            app:destination="@id/categories_Memorias" />
+        <action
+            android:id="@+id/action_productsFragment_to_categories_Tarj_Madre"
+            app:destination="@id/categories_Tarj_Madre" />
+        <action
+            android:id="@+id/action_productsFragment_to_categories_almacenamiento"
+            app:destination="@id/categories_almacenamiento" />
+        <action
+            android:id="@+id/action_productsFragment_to_categories_Fuentes_Poder"
+            app:destination="@id/categories_Fuentes_Poder" />
+        <action
+            android:id="@+id/action_productsFragment_to_categories_Gabinetes"
+            app:destination="@id/categories_Gabinetes" />
+    </fragment>
 
     <fragment
         android:id="@+id/budgetFragment"
@@ -23,8 +45,8 @@
         android:label="@string/mas"
         tools:layout="@layout/fragment_more">
         <action
-            android:id="@+id/action_moreFragment_to_changepasswordFragment"
-            app:destination="@id/changepasswordFragment" />
+            android:id="@+id/action_moreFragment_to_changePasswordFragment2"
+            app:destination="@id/changePasswordFragment2" />
     </fragment>
 
     <fragment
@@ -59,10 +81,6 @@
             android:id="@+id/action_homeFragment_to_savedBudgetFragment"
             app:destination="@id/savedBudgetFragment" />
     </fragment>
-    <fragment
-        android:id="@+id/changepasswordFragment"
-        android:name="com.mauricio.moviles_bg2m.ChangePasswordFragment"
-        android:label="Cambiar contraseña" />
     <fragment
         android:id="@+id/categories_almacenamiento"
         android:name="com.mauricio.moviles_bg2m.Categories_almacenamiento"
@@ -104,5 +122,10 @@
         android:name="com.mauricio.moviles_bg2m.SavedBudgetFragment"
         android:label="Mi presupuesto guardado 1"
         tools:layout="@layout/fragment_saved_budget" />
+    <fragment
+        android:id="@+id/changePasswordFragment2"
+        android:name="com.mauricio.moviles_bg2m.ChangePasswordFragment"
+        android:label="fragment_changepassword"
+        tools:layout="@layout/fragment_changepassword" />
 
 </navigation>
