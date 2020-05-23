@@ -7,4 +7,7 @@
     <dimen name="margin_30dp">30dp</dimen>
     <dimen name="bigMargin_60dp">60dp</dimen>
     <dimen name="textSize_24sp">24sp</dimen>
+    <dimen name="TitulosSize">20dp</dimen>
+    <dimen name="OpcionesSize">14dp</dimen>
+    <dimen name="ButtonSIze">22dp</dimen>
 </resources>

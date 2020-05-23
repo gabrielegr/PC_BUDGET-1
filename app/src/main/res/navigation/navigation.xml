@@ -60,4 +60,39 @@
         android:name="com.mauricio.moviles_bg2m.cambiopasswordFragment"
         android:label="fragment_cambiopassword"
         tools:layout="@layout/fragment_cambiopassword" />
+    <fragment
+        android:id="@+id/categories_almacenamiento"
+        android:name="com.mauricio.moviles_bg2m.Categories_almacenamiento"
+        android:label="Almacenamiento"
+        tools:layout="@layout/fragment_categories_almacenamiento" />
+    <fragment
+        android:id="@+id/categories_Tarj_video"
+        android:name="com.mauricio.moviles_bg2m.Categories_Tarj_video"
+        android:label="TarjetaVideo"
+        tools:layout="@layout/fragment_categories__tarj_video" />
+    <fragment
+        android:id="@+id/categories_Tarj_Madre"
+        android:name="com.mauricio.moviles_bg2m.Categories_Tarj_Madre"
+        android:label="TarjetaMadre"
+        tools:layout="@layout/fragment_categories__tarj__madre" />
+    <fragment
+        android:id="@+id/categories_Procesadores"
+        android:name="com.mauricio.moviles_bg2m.Categories_Procesadores"
+        android:label="Procesadores"
+        tools:layout="@layout/fragment_categories__procesadores" />
+    <fragment
+        android:id="@+id/categories_Memorias"
+        android:name="com.mauricio.moviles_bg2m.Categories_Memorias"
+        android:label="Memorias"
+        tools:layout="@layout/fragment_categories__memorias" />
+    <fragment
+        android:id="@+id/categories_Gabinetes"
+        android:name="com.mauricio.moviles_bg2m.Categories_Gabinetes"
+        android:label="Gabinetes"
+        tools:layout="@layout/fragment_categories__gabinetes" />
+    <fragment
+        android:id="@+id/categories_Fuentes_Poder"
+        android:name="com.mauricio.moviles_bg2m.Categories_Fuentes_Poder"
+        android:label="FuentesPoder"
+        tools:layout="@layout/fragment_categories__fuentes__poder" />
 </navigation>
