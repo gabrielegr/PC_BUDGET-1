@@ -62,9 +62,7 @@
     <fragment
         android:id="@+id/changepasswordFragment"
         android:name="com.mauricio.moviles_bg2m.ChangePasswordFragment"
-        android:label="fragment_cambiopassword"
-<<<<<<< HEAD
-        tools:layout="@layout/fragment_cambiopassword" />
+        android:label="fragment_cambiopassword" />
     <fragment
         android:id="@+id/categories_almacenamiento"
         android:name="com.mauricio.moviles_bg2m.Categories_almacenamiento"
@@ -100,12 +98,11 @@
         android:name="com.mauricio.moviles_bg2m.Categories_Fuentes_Poder"
         android:label="FuentesPoder"
         tools:layout="@layout/fragment_categories__fuentes__poder" />
-=======
-        tools:layout="@layout/fragment_changepassword" />
+
     <fragment
         android:id="@+id/savedBudgetFragment"
         android:name="com.mauricio.moviles_bg2m.SavedBudgetFragment"
         android:label="Mi fragmento guardado 1"
         tools:layout="@layout/fragment_saved_budget"/>
->>>>>>> 80bdc9b227eeed799faabe0e61c24df437cee3f2
+
 </navigation>
