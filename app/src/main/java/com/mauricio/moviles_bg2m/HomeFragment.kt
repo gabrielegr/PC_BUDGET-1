@@ -23,7 +23,9 @@ class HomeFragment : Fragment() {
     ): View? {
         val binding = DataBindingUtil.inflate<FragmentHomeBinding>(inflater, R.layout.fragment_home, container, false)
 
-
+        binding.toToPresupuesto1.setOnClickListener { view: View ->
+            view.findNavController().navigate(R.id.action_homeFragment_to_savedBudgetFragment)
+        }
         return binding.root
     }
 

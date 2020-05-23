@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/productsFragment"
-        android:name="com.mauricio.moviles_bg2m.productsFragment"
+        android:name="com.mauricio.moviles_bg2m.ProductsFragment"
         android:label="@string/Productos"
         tools:layout="@layout/fragment_products" />
 
@@ -23,13 +23,13 @@
         android:label="@string/mas"
         tools:layout="@layout/fragment_more">
         <action
-            android:id="@+id/action_moreFragment_to_cambiopasswordFragment"
-            app:destination="@id/cambiopasswordFragment" />
+            android:id="@+id/action_moreFragment_to_changepasswordFragment"
+            app:destination="@id/changepasswordFragment" />
     </fragment>
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.mauricio.moviles_bg2m.loginFragment"
+        android:name="com.mauricio.moviles_bg2m.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login">
         <action
@@ -54,11 +54,16 @@
         android:id="@+id/homeFragment"
         android:name="com.mauricio.moviles_bg2m.HomeFragment"
         android:label="Inicio"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_savedBudgetFragment"
+            app:destination="@id/savedBudgetFragment" />
+    </fragment>
     <fragment
-        android:id="@+id/cambiopasswordFragment"
-        android:name="com.mauricio.moviles_bg2m.cambiopasswordFragment"
+        android:id="@+id/changepasswordFragment"
+        android:name="com.mauricio.moviles_bg2m.ChangePasswordFragment"
         android:label="fragment_cambiopassword"
+<<<<<<< HEAD
         tools:layout="@layout/fragment_cambiopassword" />
     <fragment
         android:id="@+id/categories_almacenamiento"
@@ -95,4 +100,12 @@
         android:name="com.mauricio.moviles_bg2m.Categories_Fuentes_Poder"
         android:label="FuentesPoder"
         tools:layout="@layout/fragment_categories__fuentes__poder" />
+=======
+        tools:layout="@layout/fragment_changepassword" />
+    <fragment
+        android:id="@+id/savedBudgetFragment"
+        android:name="com.mauricio.moviles_bg2m.SavedBudgetFragment"
+        android:label="Mi fragmento guardado 1"
+        tools:layout="@layout/fragment_saved_budget"/>
+>>>>>>> 80bdc9b227eeed799faabe0e61c24df437cee3f2
 </navigation>
