@@ -86,7 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/bigMargin_60dp"
-            android:layout_marginTop="@dimen/bigMargin_60dp"
+            android:layout_marginTop="@dimen/margin_30dp"
             android:layout_marginEnd="@dimen/bigMargin_60dp"
             android:background="@drawable/boton_redondo"
             android:fontFamily="@font/montserrat"
