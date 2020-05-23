@@ -79,6 +79,11 @@
     <string name="confirmar_contrasena">Confirmar Contraseña</string>
     <string name="confirme_su_correo_electronico">Confirme su correo electronico</string>
     <string name="crear_cuenta">Crear cuenta</string>
+    <string name="componentes_juntos">Gigabyte B450M DS3H (AMD Ryzen AM4/M.2/HMDI/DVI/USB 3.1/DDR4/Micro ATX/Placa madre)
+        ,GIGABYTE N105TD5 DDR5 4GB GTX 1050
+        CORSAIR VENGEANCE RGB - (16GB, 2x8GB) DDR4 2666 MHz,
+    Intel Xeon E3-1230 Processors BX80677E31230V6</string>
+    <string name="precio">761.89</string>
 
 
 </resources>
