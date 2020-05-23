@@ -7,11 +7,11 @@
     <dimen name="margin_30dp">30dp</dimen>
     <dimen name="bigMargin_60dp">60dp</dimen>
     <dimen name="textSize_24sp">24sp</dimen>
-<<<<<<< HEAD
     <dimen name="TitulosSize">20dp</dimen>
     <dimen name="OpcionesSize">14dp</dimen>
     <dimen name="ButtonSIze">22dp</dimen>
-=======
     <dimen name="small_text">16sp</dimen>
->>>>>>> 80bdc9b227eeed799faabe0e61c24df437cee3f2
+    <dimen name="separador_size">1dp</dimen>
+    <dimen name="margin_80dp">80dp</dimen>
+
 </resources>

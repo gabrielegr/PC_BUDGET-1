@@ -19,11 +19,14 @@
             android:backgroundTint="@color/greenColor"
             android:ems="10"
             android:fontFamily="@font/montserrat"
-            android:hint="@string/email"
+            android:hint="@string/correo_electronico"
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            tools:ignore="TextFields"
+            tools:targetApi="lollipop"
+            android:importantForAutofill="no" />
 
         <EditText
             android:id="@+id/editText_password"
@@ -35,11 +38,13 @@
             android:backgroundTint="@color/greenColor"
             android:ems="10"
             android:fontFamily="@font/montserrat"
-            android:hint="@string/password"
+            android:hint="@string/contrasena"
             android:inputType="textPassword"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText_Email" />
+            app:layout_constraintTop_toBottomOf="@+id/editText_Email"
+            android:importantForAutofill="no"
+            tools:targetApi="lollipop" />
 
         <Button
             android:id="@+id/button_login"
@@ -50,7 +55,7 @@
             android:layout_marginEnd="@dimen/bigMargin_60dp"
             android:background="@drawable/boton_redondo"
             android:fontFamily="@font/montserrat"
-            android:text="Login"
+            android:text="@string/iniciar_sesion"
             android:textColor="@color/backgroundWhite"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
@@ -76,7 +81,7 @@
             android:layout_marginTop="@dimen/medium_margin_24dp"
             android:layout_marginEnd="@dimen/bigMargin_60dp"
             android:background="@drawable/boton_redondo"
-            android:text="Sign up "
+            android:text="@string/registrate"
             android:textColor="@color/backgroundWhite"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -94,7 +99,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/imageButton5"
-            app:layout_constraintTop_toBottomOf="@+id/button_signup" />
+            app:layout_constraintTop_toBottomOf="@+id/button_signup"
+            tools:ignore="ContentDescription" />
 
         <ImageButton
             android:id="@+id/imageButton5"
@@ -108,7 +114,8 @@
             app:layout_constraintEnd_toStartOf="@+id/imageButton4"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_signup" />
+            app:layout_constraintTop_toBottomOf="@+id/button_signup"
+            tools:ignore="ContentDescription" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -120,7 +127,8 @@
             android:src="@drawable/logo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

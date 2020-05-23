@@ -10,7 +10,7 @@
         android:layout_width="414dp"
         android:layout_height="71dp"
         android:layout_weight="1"
-        android:background="@drawable/degradado_tituloCategoria"
+        android:background="@drawable/degradado_titulo"
         android:fontFamily="@font/montserrat"
         android:paddingVertical="20dp"
         android:text="Fuentes de Poder"
