@@ -104,5 +104,10 @@
         android:name="com.mauricio.moviles_bg2m.SavedBudgetFragment"
         android:label="Mi fragmento guardado 1"
         tools:layout="@layout/fragment_saved_budget"/>
+    <fragment
+        android:id="@+id/categories_Comp_completa"
+        android:name="com.mauricio.moviles_bg2m.Categories_Comp_completa"
+        android:label="ComputadorasCompletas"
+        tools:layout="@layout/fragment_categories__comp_completa" />
 
 </navigation>
