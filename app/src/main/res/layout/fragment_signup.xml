@@ -3,11 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".SignupFragment">
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/frameLayout2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <EditText
             android:id="@+id/editText7"
@@ -38,12 +41,12 @@
             android:ems="10"
             android:fontFamily="@font/montserrat"
             android:hint="@string/confirmar_contrasena"
+            android:importantForAutofill="no"
             android:inputType="textPassword"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editText7"
-            tools:targetApi="lollipop"
-            android:importantForAutofill="no" />
+            tools:targetApi="lollipop" />
 
         <EditText
             android:id="@+id/editText9"
@@ -56,11 +59,11 @@
             android:ems="10"
             android:fontFamily="@font/montserrat"
             android:hint="@string/confirme_su_correo_electronico"
+            android:importantForAutofill="no"
             android:inputType="textEmailAddress"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editText10"
-            android:importantForAutofill="no"
             tools:targetApi="lollipop" />
 
         <EditText
@@ -74,11 +77,11 @@
             android:ems="10"
             android:fontFamily="@font/montserrat"
             android:hint="@string/correo_electronico"
+            android:importantForAutofill="no"
             android:inputType="textEmailAddress"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView3"
-            android:importantForAutofill="no"
             tools:targetApi="lollipop" />
 
         <Button
@@ -142,4 +145,5 @@
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
 </layout>
